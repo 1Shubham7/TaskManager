@@ -16,19 +16,28 @@
 
 <body>
     <nav class="navbar navbar-expand-lg">
-        <a class="mx-4 navbar-brand buldge effect" href="#">Task Manager</a>
+        <a class="mx-4 navbar-brand buldge effect taskmnav colorwhite" href="#">Task Manager</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto colorwhite">
                 <li class="nav-item active">
-                    <a class="nav-link effect buldge" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link effect buldge colorwhite" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link effect buldge" href="#">About</a>
+                    <a class="nav-link effect buldge colorwhite" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link effect buldge colorwhite" href="https://1shubham7.hashnode.dev/">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link effect buldge colorwhite" href="https://www.linkedin.com/in/shubham-singh-mahar-5a002b20b/">LinkedIn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link effect buldge colorwhite" href="https://github.com/1Shubham7">Github</a>
                 </li>
                 
             </ul>
@@ -40,19 +49,18 @@
     </nav>
 
     <div class="container my-4">
-        <h2 class="text-center">Task Manager</h2>
+        <h2 class="text-center taskm">Task Manager</h2>
          
             <div class="form-group">
                 <label for="title">Title</label>
                 <input type="text" class="form-control" id="title" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">Add an item to the list</small>
+                <small id="emailHelp" class="colorwhite">Add an item to the list</small>
             </div>
 
             <div class="form-group">
                 <label for="description">Description</label>
                 <textarea class="form-control" id="description" rows="3"></textarea>
             </div>
-            
 
             <button   id="add" class="btn btn-primary">Add to list</button>
             <button  id="clear" class="btn btn-primary" onclick="clearStorage()">Clear list</button>
@@ -60,7 +68,7 @@
 
         <div id="items" class="my-4">
             <h2>Your Items</h2>
-            <table class="table">
+            <table class="table colorwhite">
                 <thead>
                   <tr>
                     <th scope="col">SNo</th>

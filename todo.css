@@ -37,3 +37,16 @@ body{
 
     color: white
 }
+
+.colorwhite{
+  color: white;
+}
+
+.taskm{
+  text-decoration: underline;
+  font-size: xx-large;
+}
+
+.taskmnav{
+  font-size: x-large;
+}
